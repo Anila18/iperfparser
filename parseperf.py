@@ -7,7 +7,7 @@ def convertToM(number, btype):
     if (btype == 'KBytes' or btype == 'Kbits/sec'):
         return number/1000
     elif (btype == 'Bytes' or btype == 'Bits/sec'):
-        return number/1000/1000
+        return number/1000000
     else:
         return number
 
