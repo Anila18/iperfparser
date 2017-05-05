@@ -55,6 +55,4 @@ def main():
     with open(args.ofile, 'w+') as output_file:
         json.dump(data, output_file, indent=4)
 
-
-
 main()
