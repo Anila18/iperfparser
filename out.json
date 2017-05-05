@@ -1,0 +1,25 @@
+{
+    "points": [
+        {
+            "name": "1B-0",
+            "distance_ft": 127.59104044372236,
+            "transferred_mbytes": 4.43,
+            "bandwidth_mbps": 3.65,
+            "packet_perc": 25
+        },
+        {
+            "name": "1B-1",
+            "distance_ft": 139.4428453963639,
+            "transferred_mbytes": 3.3,
+            "bandwidth_mbps": 2.73,
+            "packet_perc": 31
+        },
+        {
+            "name": "1B-2",
+            "distance_ft": 157.3442712132111,
+            "transferred_mbytes": 1.019,
+            "bandwidth_mbps": 0.772,
+            "packet_perc": 41
+        }
+    ]
+}
