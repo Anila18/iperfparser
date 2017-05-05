@@ -1,0 +1,40 @@
+WARNING: option -b implies udp testing
+------------------------------------------------------------
+Client connecting to 192.168.50.1, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  224 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.50.143 port 45332 connected with 192.168.50.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.2 sec  5.93 MBytes  4.89 Mbits/sec
+[  3] Sent 4231 datagrams
+[  3] Server Report:
+[  3]  0.0-10.2 sec  4.43 MBytes  3.65 Mbits/sec  12.749 ms 1068/ 4230 (25%)
+[  3]  0.0-10.2 sec  1 datagrams received out-of-order
+
+WARNING: option -b implies udp testing
+------------------------------------------------------------
+Client connecting to 192.168.50.1, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  224 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.50.143 port 38767 connected with 192.168.50.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.1 sec  4.79 MBytes  4.00 Mbits/sec
+[  3] Sent 3419 datagrams
+[  3] Server Report:
+[  3]  0.0-10.1 sec  3.30 MBytes  2.73 Mbits/sec   7.200 ms 1063/ 3418 (31%)
+[  3]  0.0-10.1 sec  1 datagrams received out-of-order
+
+WARNING: option -b implies udp testing
+------------------------------------------------------------
+Client connecting to 192.168.50.1, UDP port 5001
+Sending 1470 byte datagrams
+UDP buffer size:  224 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.50.143 port 39390 connected with 192.168.50.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.2 sec  1.70 MBytes  1.40 Mbits/sec
+[  3] Sent 1211 datagrams
+[  3] Server Report:
+[  3]  0.0-10.8 sec  1019 KBytes   772 Kbits/sec  30.901 ms  499/ 1209 (41%)
