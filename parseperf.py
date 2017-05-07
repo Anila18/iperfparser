@@ -24,19 +24,26 @@ def parseIPerf(file_name, json_data):
 
         t = 0.0
         b = 0.0
-        p = 0
+        p = 0.0
 
         if (len(point.split('\n')) >= 12):
             sdata = point.split('\n')[11].split('  ')
-            tdata = sdata[3].lstrip().split(' ')
-            bdata = sdata[4].lstrip().split(' ')
-            t = convertToM(float(tdata[0]), tdata[1])
-            b = convertToM(float(bdata[0]), bdata[1])
-            p = int(sdata[-1].split(' ')[-1].strip('(').strip(')').strip('%'))
+            if (len(sdata) > 5):
+                tdata = sdata[3].lstrip().split(' ')
+                bdata = sdata[4].lstrip().split(' ')
+                t = convertToM(float(tdata[0]), tdata[1])
+                b = convertToM(float(bdata[0]), bdata[1])
+                p = float(sdata[-1].split(' ')[-1].strip('(').strip(')').strip('%'))
 
         json_data['points'][index]['transferred_mbytes'] = t
         json_data['points'][index]['bandwidth_mbps'] = b
         json_data['points'][index]['packet_perc'] = p
+        index += 1
+
+    while index < len(json_data['points']):
+        json_data['points'][index]['transferred_mbytes'] = 0.0
+        json_data['points'][index]['bandwidth_mbps'] = 0.0
+        json_data['points'][index]['packet_perc'] = 0.0
         index += 1
 
 def main():

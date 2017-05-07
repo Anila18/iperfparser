@@ -1,0 +1,130 @@
+{
+    "points": [
+        {
+            "distance_ft": 42.020136002035, 
+            "bandwidth_mbps": 14.5, 
+            "packet_perc": 3.7, 
+            "name": "1B-0", 
+            "transferred_mbytes": 17.4
+        }, 
+        {
+            "distance_ft": 40.423431536034, 
+            "bandwidth_mbps": 63.7, 
+            "packet_perc": 6.0, 
+            "name": "1B-1", 
+            "transferred_mbytes": 75.9
+        }, 
+        {
+            "distance_ft": 83.419117900115, 
+            "bandwidth_mbps": 3.52, 
+            "packet_perc": 15.0, 
+            "name": "1B-2", 
+            "transferred_mbytes": 4.31
+        }, 
+        {
+            "distance_ft": 86.175349950464, 
+            "bandwidth_mbps": 1.06, 
+            "packet_perc": 36.0, 
+            "name": "1B-3", 
+            "transferred_mbytes": 1.33
+        }, 
+        {
+            "distance_ft": 46.214991546418, 
+            "bandwidth_mbps": 1.49, 
+            "packet_perc": 34.0, 
+            "name": "1B-4", 
+            "transferred_mbytes": 1.9
+        }, 
+        {
+            "distance_ft": 48.69039234942, 
+            "bandwidth_mbps": 2.81, 
+            "packet_perc": 26.0, 
+            "name": "1B-5", 
+            "transferred_mbytes": 3.48
+        }, 
+        {
+            "distance_ft": 44.706404712399, 
+            "bandwidth_mbps": 3.65, 
+            "packet_perc": 25.0, 
+            "name": "1-0", 
+            "transferred_mbytes": 4.43
+        }, 
+        {
+            "distance_ft": 42.527351181646, 
+            "bandwidth_mbps": 2.73, 
+            "packet_perc": 31.0, 
+            "name": "1-1", 
+            "transferred_mbytes": 3.3
+        }, 
+        {
+            "distance_ft": 85.23091659402, 
+            "bandwidth_mbps": 0.772, 
+            "packet_perc": 41.0, 
+            "name": "1-2", 
+            "transferred_mbytes": 1.019
+        }, 
+        {
+            "distance_ft": 88.514072276985, 
+            "bandwidth_mbps": 0.0, 
+            "packet_perc": 0.0, 
+            "name": "1-3", 
+            "transferred_mbytes": 0.0
+        }, 
+        {
+            "distance_ft": 49.748848231169, 
+            "bandwidth_mbps": 0.707, 
+            "packet_perc": 27.0, 
+            "name": "1-4", 
+            "transferred_mbytes": 1.019
+        }, 
+        {
+            "distance_ft": 50.976405207296, 
+            "bandwidth_mbps": 4.9, 
+            "packet_perc": 12.0, 
+            "name": "1-5", 
+            "transferred_mbytes": 5.9
+        }, 
+        {
+            "distance_ft": 53.247080905555, 
+            "bandwidth_mbps": 0.582, 
+            "packet_perc": 46.0, 
+            "name": "2-0", 
+            "transferred_mbytes": 0.741
+        }, 
+        {
+            "distance_ft": 52.124689018597, 
+            "bandwidth_mbps": 0.0, 
+            "packet_perc": 0.0, 
+            "name": "2-1", 
+            "transferred_mbytes": 0.0
+        }, 
+        {
+            "distance_ft": 90.169177127726, 
+            "bandwidth_mbps": 0.0, 
+            "packet_perc": 0.0, 
+            "name": "2-2", 
+            "transferred_mbytes": 0.0
+        }, 
+        {
+            "distance_ft": 92.857010485405, 
+            "bandwidth_mbps": 0.0, 
+            "packet_perc": 0.0, 
+            "name": "2-3", 
+            "transferred_mbytes": 0.0
+        }, 
+        {
+            "distance_ft": 57.99626849061, 
+            "bandwidth_mbps": 0.0, 
+            "packet_perc": 0.0, 
+            "name": "2-4", 
+            "transferred_mbytes": 0.0
+        }, 
+        {
+            "distance_ft": 58.9732408314, 
+            "bandwidth_mbps": 0.0, 
+            "packet_perc": 0.0, 
+            "name": "2-5", 
+            "transferred_mbytes": 0.0
+        }
+    ]
+}
